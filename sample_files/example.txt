@@ -1,0 +1,6 @@
+This is a sample confidential file for the ST2504 secure file-sharing demo.
+
+Expected protection:
+- The server stores this content only inside an encrypted .sfs bundle.
+- Bob can decrypt it when Alice uploads it to Bob.
+- Charlie can authenticate to the server, but cannot download Bob-only files.

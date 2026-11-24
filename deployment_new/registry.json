@@ -1,0 +1,27 @@
+{
+  "ca": {
+    "cert": "ca/ca_cert.pem",
+    "fingerprint": "6c5c42ff12472f05db56ecd7efda2a23399be3f98092ed77149d6b03d8f7cdca"
+  },
+  "server": {
+    "cert": "server/server_cert.pem",
+    "fingerprint": "5e538cd77d21bf3789a9852cf0740eabef560703aefe251b90d847a70e43f1dd"
+  },
+  "users": {
+    "alice": {
+      "cert": "users/alice/cert.pem",
+      "fingerprint": "e2b16583bf33099533cb2499ac0965d4c2dba42f01384380133a50681a96a2b4",
+      "key": "users/alice/key.pem"
+    },
+    "bob": {
+      "cert": "users/bob/cert.pem",
+      "fingerprint": "e925da1ff3b0e080a4df533c6e4ca8048c0cc08e2a0dc92010243b1b77d04f33",
+      "key": "users/bob/key.pem"
+    },
+    "charlie": {
+      "cert": "users/charlie/cert.pem",
+      "fingerprint": "df1125c1a1092400938bc563a94e6555bc5ef5c09483d49620480a341764ca5b",
+      "key": "users/charlie/key.pem"
+    }
+  }
+}
